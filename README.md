@@ -1,3 +1,13 @@
+# CD_MEAN_Angular_RetroBarcodeGenerator
+Troy Center troycenter1@gmail.com July 2017
+Coding Dojo MEAN stack, Angular fundamentals, Retro Barcode Generator
+
+## Retro Barcode Generator
+
+Create an application which will preset the user a row of colored boxes. The colors should be in random order. One way to accomplish this is to create an array of random colors in your <i>app.component.ts</i> file and use them with interpolation. (You can find color names from https://www.w3schools.com/colors/colors_names.asp).
+
+<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/Angular-RetroBarcodeGenerator.png alt="Coding Dojo Assignment Image">
+
 # Retrobarcodegenerator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
