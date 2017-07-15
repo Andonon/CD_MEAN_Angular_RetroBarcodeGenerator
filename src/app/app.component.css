@@ -1,9 +1,4 @@
-#barcodegenerator {
-    display: inline-block;
-}
-#boxes p {
-    display: inline-block;
-    height: 40px;
+div.pixel {
     width: 40px;
-    background-color: yellow;
+    height: 40px;
 }

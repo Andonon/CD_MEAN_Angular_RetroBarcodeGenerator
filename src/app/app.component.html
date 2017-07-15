@@ -1,11 +1,7 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div id='header' style="text-align:left">
-  <h1>
-    {{title}}
-  </h1>
-</div>
-<div id='barcodegenerator'>
-  <div id='boxes'>
-    <p *ngFor='let box of boxes'>{{box}}</p>
-  </div>
+
+<h1>Retro Barcode Generator</h1>
+<div 
+  class="pixel"  
+  *ngFor="let color of boxes" 
+  [ngStyle]="{'background-color': color, 'display': 'inline-block' }">
 </div>
