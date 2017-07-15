@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app';
+  title: string = 'Retro Barcode Generator';
+  boxes: Array<number> = [grn(),grn(),grn(),grn(),grn(),grn(),grn(),grn(),grn()]
 }
+
+function grn(){
+  let value: number = (Math.floor(Math.random()*6))+1
+  return value;
+};
